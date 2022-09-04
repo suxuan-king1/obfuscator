@@ -1,4 +1,6 @@
 set(LLVM_LINK_COMPONENTS
+  Obfuscation
+  TransformUtils
   ${LLVM_TARGETS_TO_BUILD}
   BitReader
   Core
